@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+body {
+  padding: 3rem 1rem 2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+.main__list {
+  list-style-position: inside;
+}
+.main__list__item {
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+.main__list__link {
+  color: #000;
+}
+
+.song__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.return__btn {
+  position: absolute;
+  top: -4rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: 0.1rem solid #000;
+}
+.return__btn img {
+  width: 70%;
+}
+
+.verse__block,
+.chorus__block,
+.bridge__block {
+  margin-top: 2rem;
+}
+.verse__block:nth-child(1) {
+  margin-top: 0;
+}
+
+.song__title,
+.chorus__title,
+.bridge__title {
+  font-weight: 700;
+}
+
+.song__title,
+.chorus__title,
+.bridge__title,
+.song__text {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
