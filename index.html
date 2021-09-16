@@ -54,7 +54,14 @@
       </li>
     </ol>
     <script>
-      alert(navigator.platform);
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ||
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.platform)
+      ) {
+        alert("you are using mobile device");
+      } else {
+        alert("you are using desctop version");
+      }
     </script>
   </body>
 </html>
